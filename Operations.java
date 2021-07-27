@@ -22,6 +22,16 @@ public class Operations {
         addbook.setBounds(120, 150, 90, 50);
         operations.add(addbook);
 
+        JButton issuebook = new JButton();
+        issuebook.setText("Issue book");
+        issuebook.setBounds(380, 40, 90, 50);
+        operations.add(issuebook);
+
+        JButton returnbook = new JButton();
+        returnbook.setText("Return book");
+        returnbook.setBounds(380, 150, 90, 50);
+        operations.add(returnbook);
+
 
         operations.setVisible(true);
     }
